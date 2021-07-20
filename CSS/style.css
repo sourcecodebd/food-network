@@ -1,0 +1,282 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    margin-right: 5%
+}
+h2{
+    font-size: 35px;
+    margin-right: 5%
+}
+p{
+    text-align: justify;
+    margin-right: 5%
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+#center{
+    text-align: center;
+}
+#justify{
+    text-align: justify;
+    width: 50%;
+    margin: auto
+}
+.recipy-text{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px
+}
+.top-banner{
+    background-image: url(../images/shapes/food-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 670px;
+    width: 100%;
+    color: white;
+}
+.about-me{
+    background-image: url(../images/shapes/food-bg-2.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 100px;
+}
+.recipy-area{
+    background-image: url(../images/shapes/food-bg-3.png);
+    background-repeat: no-repeat;
+    background-position: center right; 
+    background-size: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.half-width img{
+    width: 90%;
+    padding-top: 8%;
+}
+.orange{
+    color: orange;
+}
+.purple{
+    color:rgb(143, 31, 207)
+}
+.yellow{
+    color:rgb(238, 255, 0)
+}
+.grey{
+    color:grey
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(255, 153, 0), tomato);
+    padding: 25px 30px;
+    border: 1px solid;
+    border-radius: 30px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.btn:hover{
+    color: yellow;
+    background-image: linear-gradient(rgb(158, 67, 233), rgb(112, 8, 231));
+    transition-duration:2s;
+    transition-delay: 0.8s;
+    border: 1px solid white
+}
+#section-heading{
+    text-align: center;
+    color: white;
+    background-image: url(../images/shapes/food-bg.png);
+    background-size: 100%;
+    padding: 25px 30px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#food-picture-heading{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-image: url(../images/shapes/food-bg.png);
+    background-size: 100%;
+    padding: 15px 30px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box{
+    display: inline-block;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.box img{
+    width: 230px;
+    margin-right:30px;
+    border-radius: 30px;
+}
+#recipy-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,rgb(255, 153, 0));
+    border-image-slice: 1
+}
+#recipy-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1
+}
+#recipy-3{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(44, 192, 38), rgb(69, 221, 221));
+    border-image-slice: 1
+}
+.box-2{
+    width: 77%;
+    margin: auto;
+    margin-right: 5%;
+    margin-bottom: 100px;
+    padding: 90px 90px 90px 90px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.inline-block{
+    width: 33%;
+    text-align: center;
+    display: inline-block
+}
+.heading{
+    font-size: 30px;
+    font-weight: 600;
+}
+.title{
+    font-size: 15px;
+}
+footer p{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 0%;
+    margin-right: 0;
+}
+
+.food-collection{
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.box-3{
+    width: 85%;
+    margin: auto;
+    margin-right: 5%;
+    margin-bottom: 100px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+div.gallery {
+    margin: auto;
+    width: 180px;
+    margin-left: 30%;
+  }
+  
+  div.gallery:hover {
+    opacity: 0.8;
+  }
+  
+  div.gallery img {
+    width: 300%;
+    height: auto;
+    margin: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+@media screen and (max-width: 600px) {
+    body, .box, .top-banner, .about-me{
+        font-size: 12px;
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        display: inline-block;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .btn {
+        width: 30px; /* The width is 100%, when the viewport is 800px or smaller */
+        padding: 10px;
+        font-size: 9px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    footer {
+        font-size: 12px;
+        display: block;
+        width: 100%
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .inline-block, .box-2 {
+        width: fit-content;
+        display: block;
+        margin:auto;
+        margin-bottom: 100px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+    .box-3 {
+        width: fit-content;
+        display: block;
+        margin:auto;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    div.gallery {
+        width: 33%;
+        display: block;
+        margin:auto;
+        margin-right: 80%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    h1 {
+        font-size: 25px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    h2, h3 {
+        font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .flexible-container {
+        overflow-y: hidden;
+        overflow: scroll;
+    }
+  }
